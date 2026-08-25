@@ -1,0 +1,56 @@
+export const COLORS = {
+  light: {
+    primary: '#1976D2',
+    primaryDark: '#1565C0',
+    accent: '#1976D2',
+    background: '#F5F5F5',
+    surface: '#FFFFFF',
+    text: '#212121',
+    textSecondary: '#757575',
+    border: '#E0E0E0',
+    highlight: '#E3F2FD',
+    freePeriod: '#E8F5E9',
+    lunchBreak: '#FFF3E0',
+    currentDay: '#BBDEFB',
+    currentClass: '#C8E6C9',
+    headerText: '#FFFFFF',
+    cellBackground: '#FFFFFF',
+    cardBackground: '#FFFFFF',
+    bottomSheetBackground: '#FFFFFF',
+    error: '#D32F2F',
+    searchHighlight: '#FFF9C4',
+    overlay: 'rgba(0,0,0,0.5)',
+    topBarBg: '#FFFFFF',
+  },
+  dark: {
+    primary: '#19E6C1',
+    primaryDark: '#00BFA5',
+    accent: '#19E6C1',
+    background: '#0D0D10',
+    surface: '#1A1A20',
+    text: '#F0F0F0',
+    textSecondary: 'rgba(255,255,255,0.55)',
+    border: 'rgba(255,255,255,0.12)',
+    highlight: 'rgba(25,230,193,0.1)',
+    freePeriod: 'rgba(25,230,193,0.06)',
+    lunchBreak: 'rgba(255,183,77,0.15)',
+    currentDay: 'rgba(25,230,193,0.12)',
+    currentClass: 'rgba(25,230,193,0.2)',
+    headerText: '#FFFFFF',
+    cellBackground: '#1A1A20',
+    cardBackground: '#16161C',
+    bottomSheetBackground: '#1A1A20',
+    error: '#EF5350',
+    searchHighlight: 'rgba(25,230,193,0.15)',
+    overlay: 'rgba(0,0,0,0.7)',
+    topBarBg: '#0D0D10',
+  },
+};
+
+export const STORAGE_KEYS = {
+  ROLL_NUMBER: '@routine_roll_number',
+  THEME: '@routine_theme',
+};
+
+export const APP_VERSION = '1.0.0';
+export const DEVELOPER = 'AppRoutine Team';
